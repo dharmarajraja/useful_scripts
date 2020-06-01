@@ -1,5 +1,5 @@
 FROM centos:latest
-LABEL maintainer="CME Ventera Team version=3.6.2"
+LABEL maintainer="Raja Dharmaraj"
 EXPOSE 27017
 ARG MONGODB_VERSION=3.6.2
 ARG MONGO_HOME=/opt/mongodb
